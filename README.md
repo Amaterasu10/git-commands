@@ -9,4 +9,5 @@
 | `git commit --amend -m "New commit message."` | Change the message of the last commit that is not yet pushed|
 | `git push origin` | Uploads your **commits** to github |
 | `git pull origin` | Updates your **local-branch** |
+| `git remote show origin` | Shows the **details** of branches |
 | `git diff` | Show file differences that **haven't been** staged |
