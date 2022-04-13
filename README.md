@@ -12,10 +12,17 @@
 | `git remote show origin` | Shows the **details** of branches |
 | `git diff` | Show file differences that **haven't been** staged |
 
+
 ## git stash commands
 | Command | Description |
 | --- | --- |
 | `git stash` | Stores the changes aside |
+| `git stash push -m "custom message"` | Stash with custom message |
 | `git stash -u` | Store the changes aside including the **untracked** files |
 | `git stash list` | List all the stash |
 | `git stash apply <stash-index>` | Retrieve the stashed changes to the current branch |
+| `git stash show <stash-index>` | Show the changes in that stash |
+| `git stash show -p <stash-index>` | Show the changes in that stash in full tree view |
+| `git stash branch <branch-name> <stash-index>` | Create a branch from a stash |
+| `git stash pop` | Retrieve the latest stash to the current branch |
+| `git stash clear` | Remove all the stash |
