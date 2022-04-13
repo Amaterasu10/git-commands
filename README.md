@@ -11,3 +11,11 @@
 | `git pull origin` | Updates your **local-branch** |
 | `git remote show origin` | Shows the **details** of branches |
 | `git diff` | Show file differences that **haven't been** staged |
+
+## git stash commands
+| Command | Description |
+| --- | --- |
+| `git stash` | Stores the changes aside |
+| `git stash -u` | Store the changes aside including the **untracked** files |
+| `git stash list` | List all the stash |
+| `git stash apply <stash-index>` | Retrieve the stashed changes to the current branch |
