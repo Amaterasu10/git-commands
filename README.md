@@ -11,6 +11,7 @@
 | `git pull origin` | Updates your **local-branch** |
 | `git remote show origin` | Shows the **details** of branches |
 | `git diff` | Show file differences that **haven't been** staged |
+| `git reset --hard HEAD~1` | Deletes the **unpushed** commit |
 
 
 ## git stash commands
