@@ -27,3 +27,16 @@
 | `git stash branch <branch-name> <stash-index>` | Create a branch from a stash |
 | `git stash pop` | Retrieve the latest stash to the current branch |
 | `git stash clear` | Remove all the stash |
+
+
+## git branch commands
+| Command | Description |
+| --- | --- |
+| `git branch` | Lists all of the branches in the repository (the same as git branch --list). |
+| `git branch <branch>` | Creates a new branch called <branch> but does not checks out the new branch. |
+| `git branch -d <branch>` | Deletes a branch. If there are unmerged changes, Git does not allow you to delete it. |
+| `git branch -D <branch>` | Forces delete the branch, even if there are unmerged changes. Execute this command when you are sure to delete it permanently. |
+| `git stash apply <stash-index>` | Retrieve the stashed changes to the current branch |
+| `git stash show <stash-index>` | Show the changes in that stash |
+| `git branch -m <branch>` | Moves or renames the current branch to <branch>. |
+| `git branch -a` | Lists all the remote branches. |
