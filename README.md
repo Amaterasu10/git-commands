@@ -40,3 +40,4 @@
 | `git stash show <stash-index>` | Show the changes in that stash |
 | `git branch -m <branch>` | Moves or renames the current branch to <branch>. |
 | `git branch -a` | Lists all the remote branches. |
+| `git checkout -b <branch>` | add a new branch named <branch> and then move to that branch |
