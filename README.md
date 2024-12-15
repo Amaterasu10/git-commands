@@ -4,6 +4,7 @@
 | --- | --- |
 | `git status` | List all **new or modified** files |
 | `git add <file-name or directory>` | Stages a file or files in a directory|
+| `git add -p <file-name or directory>` | Stages the selected parts of a file|
 | `git restore --staged <file-name or directory> ` | Unstages a file or files in a directory|
 | `git commit -m "Message"` | Commit **staged files** with message |
 | `git commit --amend -m "New commit message."` | Change the message of the last commit that is not yet pushed|
