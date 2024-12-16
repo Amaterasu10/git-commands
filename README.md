@@ -34,6 +34,7 @@
 | Command | Description |
 | --- | --- |
 | `git branch` | Lists all of the branches in the repository (the same as git branch --list). |
+| `git branch -vv` | Display Local Branches with Their Tracking Information. |
 | `git branch <branch>` | Creates a new branch called <branch> but does not checks out the new branch. |
 | `git branch -d <branch>` | Deletes a branch. If there are unmerged changes, Git does not allow you to delete it. |
 | `git branch -D <branch>` | Forces delete the branch, even if there are unmerged changes. Execute this command when you are sure to delete it permanently. |
